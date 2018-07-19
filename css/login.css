@@ -1,0 +1,26 @@
+.dialog{
+    width: 450px;
+    margin: 170px auto 0;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow:0 9px 30px -6px rgba(0,0,0,.2), 0 18px 20px -10px rgba(0,0,0,.04), 0 18px 20px -10px rgba(0,0,0,.04), 0 10px 20px -10px rgba(0,0,0,.04);
+}
+
+.title{
+    position: relative;
+    margin: 23px 0 50px;
+    height: 167px;
+    background: url("../img/chuizi.png") no-repeat top center;
+    background-size:160px;
+}
+
+.title-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+    color: #333333;
+    font-weight: 400;
+}
