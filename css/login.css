@@ -24,3 +24,47 @@
     color: #333333;
     font-weight: 400;
 }
+
+.content{
+    padding: 0 40px 22px;
+}
+
+.input{
+    background: #fff;
+    box-shadow: 0 3px 5px -4px rgba(0,0,0,.4) inset, -1px 0 3px -2px rgba(0,0,0,.1) inset;
+    border: #ccc solid 1px;
+    border-radius: 6px;
+    font-size: 18px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.input .icon{
+    background: -webkit-linear-gradient(#f8f8f8,#fafafa);
+    border-radius: 6px 0 0 6px;
+    border-right: solid 1px #ccc;
+    box-shadow: 1px 0 3px -1px rgba(0,0,0,.1);
+    float: left;
+    height: 46px;
+    width: 46px;
+    overflow: hidden;
+}
+
+.input .icon i{
+    background: url(../img/login.png) no-repeat -1px 0;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    text-indent: -9999em;
+    width: 46px;
+}
+
+.input input{
+    width: 293px;
+    height: 20px;
+    padding: 12px 12px 12px 15px;
+    background: rgba(255,255,255,0);
+    border: none;
+    color: #333;
+    font-size: 16px;
+}
