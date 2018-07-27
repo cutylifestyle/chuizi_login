@@ -5,6 +5,7 @@
     <title>锤子手机</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
 </head>
 <body>
     <div class="dialog">
@@ -18,15 +19,26 @@
                 <ul class="common-form">
                     <li class="username">
                         <div class="input">
-                            <span class="icon">
-                                <i>手机号/邮箱</i>
-                            </span>
-                            <!--<label for="username">手机号/邮箱</label>-->
+                            <i class="icon-user iconfont"></i>
+                            <label for="username" class="placeholder">手机号/邮箱</label>
                             <input id="username" type="text" name="username">
                         </div>
                     </li>
-                    <li></li>
-                    <li></li>
+                    <li class="password">
+                        <div class="input">
+                            <i class="icon-ico-pwd iconfont"></i>
+                            <label for="pwd" class="placeholder">密码</label>
+                            <input id="pwd" type="text" name="pwd">
+                        </div>
+                    </li>
+                    <li class="remember">
+                        <div class="auto">
+                            <span class="checkbox"></span>
+                            自动登录
+                        </div>
+                        <a class="forget-password" href="#">忘记密码?</a>
+                        <a class="register-cloud" href="#">注册 Smartisan ID</a>
+                    </li>
                 </ul>
             </form>
         </div>

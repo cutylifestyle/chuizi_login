@@ -1,3 +1,9 @@
+/*
+    TODO 获取焦点的时候外边框变成蓝色：实现方案：js/css中伪类以及伪元素选择器
+    TODO 通过js来控制placeholder的显示和隐藏
+    TODO 通过js来控制checkbox的选中状态
+*/
+
 .dialog{
     width: 450px;
     margin: 170px auto 0;
@@ -29,42 +35,100 @@
     padding: 0 40px 22px;
 }
 
+.common-form li{
+    position: relative;
+    margin-bottom: 15px;
+}
+
 .input{
-    background: #fff;
-    box-shadow: 0 3px 5px -4px rgba(0,0,0,.4) inset, -1px 0 3px -2px rgba(0,0,0,.1) inset;
-    border: #ccc solid 1px;
-    border-radius: 6px;
+    opacity: 0.618;
     font-size: 18px;
+    line-height: 40px;
+    position: relative;
     height: 46px;
+    border: #cccccc solid 1px;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px -4px rgba(0,0,0,.4) inset, -1px 0 3px -2px rgba(0,0,0,.1) inset;
+    transition: 0.5s;
+}
+
+.input:hover{
+    opacity: 1;
+}
+
+.input .iconfont{
     line-height: 46px;
-}
-
-.input .icon{
-    background: -webkit-linear-gradient(#f8f8f8,#fafafa);
-    border-radius: 6px 0 0 6px;
-    border-right: solid 1px #ccc;
-    box-shadow: 1px 0 3px -1px rgba(0,0,0,.1);
     float: left;
-    height: 46px;
     width: 46px;
-    overflow: hidden;
-}
-
-.input .icon i{
-    background: url(../img/login.png) no-repeat -1px 0;
+    height: 46px;
+    text-align: center;
+    border-right: #cccccc solid 1px;
+    border-radius:6px 0 0 6px;
+    box-shadow: 1px 0 3px -1px rgba(0,0,0,.1);
+    background: #fafafa;
     cursor: pointer;
-    display: block;
-    height: 46px;
-    text-indent: -9999em;
-    width: 46px;
 }
 
 .input input{
+    border: none;
     width: 293px;
     height: 20px;
     padding: 12px 12px 12px 15px;
     background: rgba(255,255,255,0);
-    border: none;
-    color: #333;
     font-size: 16px;
+    outline: none;
+    color: #333;
 }
+
+.input .placeholder{
+    position: absolute;
+    top: 0;
+    left: 62px;
+    font-size: 16px;
+    color: #bebebe;
+}
+
+.common-form .remember{
+    margin: 15px 5px 25px;
+    height: 12px;
+}
+
+.common-form .remember .auto{
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+    padding-left: 22px;
+    float: left;
+}
+
+.auto .checkbox{
+    position: absolute;
+    top:-4px;
+    left: -2px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/checkbox.png") no-repeat 0 -18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.remember .register-cloud, .forget-password{
+    color: #5079d9;
+    font-size: 12px;
+    display: block;
+}
+
+.remember .forget-password{
+    float: right;
+    margin-left: 5px;
+}
+
+.remember .register-cloud{
+    float: right;
+    padding-right: 5px;
+    border-right: solid 1px #999999;
+}
+
+
