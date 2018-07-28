@@ -200,11 +200,10 @@ a{
 }
 
 .company .company-info{
-    display:inline;
+    text-align: center;
 }
 
-.company .company-info li{
-    float: left;
+.company .company-info a{
     padding:0 10px 0;
     border-right: solid #757575 1px;
 }
