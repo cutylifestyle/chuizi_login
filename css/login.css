@@ -2,11 +2,12 @@
     TODO 获取焦点的时候外边框变成蓝色：实现方案：js/css中伪类以及伪元素选择器
     TODO 通过js来控制placeholder的显示和隐藏
     TODO 通过js来控制checkbox的选中状态
+    TODO js控制登录按钮的颜色状态
 */
 
 .dialog{
     width: 450px;
-    margin: 170px auto 0;
+    margin: 110px auto 0;
     border: 1px solid #dadada;
     border-radius: 10px;
     box-shadow:0 9px 30px -6px rgba(0,0,0,.2), 0 18px 20px -10px rgba(0,0,0,.04), 0 18px 20px -10px rgba(0,0,0,.04), 0 10px 20px -10px rgba(0,0,0,.04);
@@ -129,6 +130,92 @@ a{
     float: right;
     padding-right: 5px;
     border-right: solid 1px #999999;
+}
+
+.login .submit{
+    width: 370px;
+    height: 46px;
+    color: #ffffff;
+    font-size:18px;
+    background: #BDCDEE;
+    border: none;
+    border-radius:6px;
+}
+
+.login .other-login{
+    margin-top: 30px;
+    padding-top: 23px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.other-login{
+    font-size: 12px;
+    color: #999999;
+    line-height: 12px;
+}
+
+.other-login .third-login{
+    float: left;
+}
+
+.other-login .third-login .icon-third-login{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.other-login .international-login{
+    float: right;
+    color: #999999;
+    cursor: pointer;
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.other-login .third-login .icon-wechat:hover{
+    color: #51C332;
+}
+
+.other-login .third-login .icon-weibo:hover{
+    color: #E6162D;
+}
+
+.other-login .third-login .icon-qq:hover{
+    color:#4CAFE9;
+}
+
+.other-login .international-login:hover{
+    color: #4c73e9;
+}
+
+.company{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.company .company-info{
+    display:inline;
+}
+
+.company .company-info li{
+    float: left;
+    padding:0 10px 0;
+    border-right: solid #757575 1px;
+}
+
+.company .company-info .none-border{
+    border: none;
+}
+
+.company .beizhu{
+    margin-top: 10px;
+    text-align: center;
 }
 
 
