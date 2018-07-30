@@ -1,13 +1,7 @@
-/*
-    TODO 获取焦点的时候外边框变成蓝色：实现方案：js/css中伪类以及伪元素选择器
-    TODO 通过js来控制placeholder的显示和隐藏
-    TODO 通过js来控制checkbox的选中状态
-    TODO js控制登录按钮的颜色状态
-*/
 
 .dialog{
     width: 450px;
-    margin: 110px auto 0;
+    margin: 170px auto 0;
     border: 1px solid #dadada;
     border-radius: 10px;
     box-shadow:0 9px 30px -6px rgba(0,0,0,.2), 0 18px 20px -10px rgba(0,0,0,.04), 0 18px 20px -10px rgba(0,0,0,.04), 0 10px 20px -10px rgba(0,0,0,.04);
@@ -193,7 +187,7 @@ a{
 }
 
 .company{
-    margin-top: 50px;
+    margin-top: 170px;
     padding-bottom: 50px;
     font-size: 12px;
     color: #757575;

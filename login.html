@@ -19,22 +19,22 @@
             <form class="login">
                 <ul class="common-form">
                     <li class="username">
-                        <div class="input">
+                        <div id="username-frame" class="input">
                             <i class="icon-user iconfont"></i>
-                            <label for="username" class="placeholder">手机号/邮箱</label>
+                            <label id="username-label" for="username" class="placeholder">手机号/邮箱</label>
                             <input id="username" type="text" name="username">
                         </div>
                     </li>
                     <li class="password">
-                        <div class="input">
+                        <div id="pwd-frame" class="input">
                             <i class="icon-ico-pwd iconfont"></i>
-                            <label for="pwd" class="placeholder">密码</label>
+                            <label id="pwd-label" for="pwd" class="placeholder">密码</label>
                             <input id="pwd" type="text" name="pwd">
                         </div>
                     </li>
                     <li class="remember">
-                        <div class="auto">
-                            <span class="checkbox"></span>
+                        <div id="auto-checkbox" class="auto">
+                            <span id="checkbox" class="checkbox"></span>
                             自动登录
                         </div>
                         <a class="forget-password" href="#">忘记密码?</a>
@@ -64,5 +64,6 @@
         </nav>
         <p class="beizhu"><a href="#">京ICP备14041720号-1京ICP证140622号京公网安备11010502025474</a></p>
     </div>
+    <script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
